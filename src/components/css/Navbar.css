@@ -1,0 +1,18 @@
+.me-auto a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-brand a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-brand {
+    margin-left: 10px;
+}
+
+.navBar {
+    background-color: #1a1a1a;
+    color: red;
+}

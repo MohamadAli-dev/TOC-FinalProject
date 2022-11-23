@@ -1,11 +1,10 @@
-
 import React from "react";
 import { Table } from 'react-bootstrap';
-import './Dfa.css';
+import './css/DFA.css';
 import { Graphviz } from 'graphviz-react';
 
 
-const Dfa = props => {
+const DFA = props => {
 
     let dotStr = "digraph fsm {\n"; // digraph is a graphviz keyword
     dotStr += "rankdir=LR;\n"; // Left to right
@@ -65,4 +64,4 @@ const Dfa = props => {
     </div>
 }
 
-export default Dfa;
+export default DFA;
