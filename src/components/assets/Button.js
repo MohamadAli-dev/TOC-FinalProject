@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './css/Button.css';
+import '../css/Button.css';
 
 const Button = props => {
     if (props.href) { // if the button is a link

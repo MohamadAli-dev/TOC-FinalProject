@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './css/In.css'
 import { Table } from 'react-bootstrap';
 import Button from './assets/Button';
-import NFA from './ENFA';
+import ENFA from './ENFA';
 
 
 // function to create table
@@ -73,7 +73,7 @@ const In = (props) => { // props = {states, alphabet, start, final, nfa}
             </div>
             <div className="dfa-container">
                 {final &&
-                    <NFA
+                    <ENFA
                         text="hello"
                         inputSymbol={[...props.inputSymbol]}
                         states={props.states} nfa={nfa}

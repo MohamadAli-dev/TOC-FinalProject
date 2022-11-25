@@ -21,3 +21,29 @@
     width: 100%;
     height: 100%;
 }
+
+.checkSection {
+    display: flex;
+    margin: 20px;
+}
+
+.checkSection input {
+    margin-left: 10px;
+    padding: 0 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons .button-check {
+    display: flex;
+    margin: 0 10px;
+}
+
+.buttons .button-clear {
+    display: flex;
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
